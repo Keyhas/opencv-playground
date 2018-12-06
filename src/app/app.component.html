@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <p id="status">OpenCV.js is loading...</p>
+  <div class="ui-g ui-g-12">
+    <button class="ui-g-2 ui-g-offset-3"  pButton type="button" label="Images" (click)="loadImages()" ></button>
+    <button class="ui-g-2 ui-g-offset-6" pButton type="button" label="Videos" (click)="loadVideos()"></button>
+
+  </div>
+
+<router-outlet></router-outlet>

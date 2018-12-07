@@ -18,7 +18,7 @@ export class FileUploadComponent implements OnInit {
 
   imgLoad( data ) {
     console.log( 'image loaded' );
-    this.imgFile.emit( data[ 0 ] );
+    this.imgFile.emit( data );
   }
 
 }
